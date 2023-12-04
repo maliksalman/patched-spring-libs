@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-web",
+    "version": "5.3.30.optum-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.30"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.30"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.30.optum-1.jar",
+          "url": "spring-web-5.3.30.optum-1.jar",
+          "size": 1612618,
+          "sha512": "acbea9b50ef6862654be9215c86d9df1a1840b266938a7fe6847cabb33749e6dc649eb68021c4b1974e04383cd40d9a36441967441d0f816d1381996c3e79ce1",
+          "sha256": "d01bd7a23eedec6d44e0409a439a47dce21e481ff92fa3e673f9bf192285a365",
+          "sha1": "8288e0a8090f9344aa29a24282fb59acfea6496a",
+          "md5": "44a195def331ce18efe9fe6735a5485f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.30"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.30"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.30.optum-1.jar",
+          "url": "spring-web-5.3.30.optum-1.jar",
+          "size": 1612618,
+          "sha512": "acbea9b50ef6862654be9215c86d9df1a1840b266938a7fe6847cabb33749e6dc649eb68021c4b1974e04383cd40d9a36441967441d0f816d1381996c3e79ce1",
+          "sha256": "d01bd7a23eedec6d44e0409a439a47dce21e481ff92fa3e673f9bf192285a365",
+          "sha1": "8288e0a8090f9344aa29a24282fb59acfea6496a",
+          "md5": "44a195def331ce18efe9fe6735a5485f"
+        }
+      ]
+    }
+  ]
+}
